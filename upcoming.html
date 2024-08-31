@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Upcoming Events</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <main class="flex-grow-1">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark " id="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="logo" src="./assets/amazing_brand.png" alt="Brand Logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav fs-3">
+                            <a class="nav-link" href="./home.html">Home</a>
+                            <a class="nav-link active" href="./upcoming.html">Up Coming</a>
+                            <a class="nav-link" href="./pastevents.html">Past Events</a>
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                            <a class="nav-link" href="./stats.html">Stats</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div id="carouselExampleDark" class="carousel carousel-text-light">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/optional_banner_1.jpg" class="d-block w-100" alt="Banner 1">
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="fs-1">HOME</h5>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/optional_banner_2.jpg" class="d-block w-100" alt="Banner 2">
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="fs-1">HOME</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container-fluid">
+            <div id="checkbox-container"></div>
+            <form class="d-flex flex-column flex-md-row align-items-center mb-4">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="searchInput" placeholder="Buscar...">
+                    
+                </div>
+                <div id="message" class="mt-2"></div>
+            </form>
+        </div>
+
+        <div id="contenedor" class="d-flex justify-content-evenly flex-wrap p-4 gap-3"></div>
+    </main>
+
+    <footer class="mt-4  footer-dark " id="footer">
+        <div class="p-2 d-flex flex-wrap justify-content-between">
+            <div>
+                <nav class="nav">
+                    <a class="nav-link" href="#"><img class="ft" src="./assets/whatsapp.png" alt="WhatsApp"></a>
+                    <a class="nav-link" href="#"><img class="ft" src="./assets/instagram.png" alt="Instagram"></a>
+                    <a class="nav-link" href="#"><img class="ft" src="./assets/facebook.png" alt="Facebook"></a>
+                </nav>
+            </div>
+            <div>
+                <h1 class="p-3 fs-3">COHORT</h1>
+            </div>
+        </div>
+    </footer>
+
+   
+    <script type="module" src="upcoming.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

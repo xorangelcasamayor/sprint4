@@ -1,0 +1,137 @@
+.logo{
+    width: 20vh;
+}
+
+.carousel img{ height: 30vh;
+    object-fit: cover;
+  
+}
+ 
+h5{
+    font-size: 30px;
+}
+
+.h2{ 
+    text-align: center;}
+
+ .ft{width: 5vh;}
+
+ body{background-image: url(./assets/depositphotos_13288886-stock-photo-grey-grunge-textured-wall-copy.jpg);}
+
+
+ th,td{
+    font-weight: 500;
+    color: white;
+    height: 40px;
+ }
+
+ header, footer{ min-height: 5vh;}
+
+ ul{list-style:none ;}
+
+ .img-fluid {
+    max-width: 500px;
+    height: auto;
+}
+
+.justify-content-around{
+    padding: 20px;
+}
+
+.container-fluid{
+ margin-top: 10px;
+justify-content: space-between;
+display: flex;
+
+}
+
+
+label{
+    font-family: Arial;
+    color: rgb(255, 255, 255);   
+   
+    
+    font-size: 30px;
+}
+
+.details {
+    background-image: url(./assets/depositphotos_384902504-stock-photo-vintage-paper-texture-grey-grunge.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;}
+
+    .details img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+   
+.card {
+    background-image: url(./assets/depositphotos_384902504-stock-photo-vintage-paper-texture-grey-grunge.jpg);
+    width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    overflow: hidden; 
+  }
+  
+ 
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  }
+  
+ 
+  .imagen42, .details img  {
+    height: 298px
+  
+  }
+  
+ 
+  .btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .card-body {display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+align-items: center;
+}
+
+p {
+    
+    font-size: 25px;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.3s ease;
+}
+
+footer{ background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+
+}
+
+.form-check .form-check-input {
+    margin-top: 15px;
+    float: left;
+  
+}
+
+.bg-dark {
+    color: #ccc;
+   
+}
